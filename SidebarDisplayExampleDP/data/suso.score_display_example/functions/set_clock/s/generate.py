@@ -18,4 +18,4 @@ for i in range(64):
             start = mid
             path += "1"
     with open('./{}.mcfunction'.format(path), "w") as f:
-           f.write('team modify a suffix {{"text":"\\uE{}    ","font":"example:display"}}'.format(str(format((i - 16) % 64, "x")).zfill(3)))
+           f.write('team modify a suffix [{{"text":">","font":"example:display"}},{{"text":"\\uE{}    ","font":"example:display"}}]'.format(str(format((i - 16) % 64, "x")).zfill(3)))

@@ -1,6 +1,10 @@
 execute store result score #time display run time query daytime
 
 function suso.score_display_example:set_clock/s/s
+
+
+#If we didn't use binary search, we would have to deal with this mess vvv
+
 #execute if score #time display matches 0..374 run team modify a suffix {"text":"\uE030    ","font":"example:display"}
 #execute if score #time display matches 375..749 run team modify a suffix {"text":"\uE031    ","font":"example:display"}
 #execute if score #time display matches 750..1124 run team modify a suffix {"text":"\uE032    ","font":"example:display"}

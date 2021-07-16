@@ -5,3 +5,4 @@ team remove b
 team remove c
 team remove d
 team remove e
+team remove f

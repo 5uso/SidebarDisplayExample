@@ -1,1 +1,1 @@
-team modify a suffix {"text":"\uE022    ","font":"example:display"}
+team modify a suffix [{"text":">","font":"example:display"},{"text":"\uE022    ","font":"example:display"}]

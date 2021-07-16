@@ -1,9 +1,9 @@
 scoreboard objectives add display dummy
 
-scoreboard players set §ca display 0
-scoreboard players set §cb display 0
-scoreboard players set §cc display 0
-scoreboard players set §cd display 0
-scoreboard players set §ce display 0
+scoreboard players set a display 0
+scoreboard players set b display 0
+scoreboard players set c display 0
+scoreboard players set d display 0
+scoreboard players set e display 0
 
 scoreboard objectives setdisplay sidebar display
