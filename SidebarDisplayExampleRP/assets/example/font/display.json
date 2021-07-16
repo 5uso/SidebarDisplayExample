@@ -1,5 +1,7 @@
 {
 	"providers": [
+		{ "type": "bitmap", "file": "example:p.png", "ascent": -32768, "height": -10002, "chars": ["<"] },
+		{ "type": "bitmap", "file": "example:p.png", "ascent": -32768, "height":   9999, "chars": [">"] },
 		{ "type": "bitmap", "file": "example:clock_00.png", "ascent": 2, "height": 92, "chars": ["\uE000"] },
 		{ "type": "bitmap", "file": "example:clock_01.png", "ascent": 2, "height": 92, "chars": ["\uE001"] },
 		{ "type": "bitmap", "file": "example:clock_02.png", "ascent": 2, "height": 92, "chars": ["\uE002"] },
